@@ -1,0 +1,41 @@
+.registerBody {
+    align-items: center;
+    /* text-align: center; */
+    transform: translate(1%, -20%);
+}
+
+.websiteTitle {
+    color:rgb(227, 130, 50);
+    font-weight:bold;
+    font-size: 45px;
+    transform: translate(0%, 35%);
+    text-shadow: 2px 2px #9a5b27;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ .subtitle {
+    color: #784114;
+    /* transform: translate(0%, -350%); */
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+label {
+    color: #784114;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.userButtons {
+    background-color: #f9e7d7;
+    border-color: #ffcfa7;
+    border-width: 4px 4px 4px 4px;
+    color: #9a5b27;
+    
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}

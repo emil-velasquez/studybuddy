@@ -1,0 +1,30 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #ffcfa7;
+}
+
+.startBody {
+    /* background-color:rgb(255, 207, 167); */
+    color:rgb(227, 130, 50);
+    font-weight:bold;
+    font-size: 60px;
+    text-align: center;
+    transform: translate(0%, 100%);
+    text-shadow: 2px 2px #9a5b27;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.buttonStartPage {
+    background-color: #f9e7d7;
+    border-color: #ffcfa7;
+    border-width: 4px 4px 4px 4px;
+    color: #9a5b27;
+    /* padding (??)*/
+    text-align: center;
+    transform: translate(0%, -250%);
+    font-weight: bold;
+    font-size: 16px;
+}
+

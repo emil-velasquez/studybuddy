@@ -1,3 +1,5 @@
+import "../../styles/Authenticate/LoginPageStyle.css"
+
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom"
 
@@ -20,9 +22,9 @@ function LoginPage() {
     }
 
     return (
-        <div>
-            <p>Study Buddy</p>
-            <p>Login</p>
+        <div className="loginBody">
+            <p className="websiteTitle">Study Buddy</p>
+            <p className="subtitle">Login</p>
 
             <label>
                 Email:
@@ -32,7 +34,7 @@ function LoginPage() {
                 Password:
                 <input type="text" value={currentPassword} onChange={handlePasswordChange} />
             </label><br />
-            <button onClick={handleLogin}>Login</button>
+            <button className="userButtons" onClick={handleLogin}>Login</button>
         </div>
     )
 }

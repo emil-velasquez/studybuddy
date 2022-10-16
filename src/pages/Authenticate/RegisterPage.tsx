@@ -1,3 +1,4 @@
+import "../../styles/Authenticate/RegisterPageStyle.css"
 import React, { useState } from "react";
 
 function RegisterPage() {
@@ -39,12 +40,12 @@ function RegisterPage() {
 
 
     return (
-        <div>
-            <p>Study Buddy</p>
-            <p>Register</p>
+        <div className="registerBody">
+            <p className="websiteTitle">Study Buddy</p>
+            <p className="subtitle">REGISTRATION PAGE</p>
             <label>
                 Name:
-                <input type="text" value={currentName} onChange={handleNameChange} />
+                <input type="text" value={currentName} onChange={handleNameChange}/>
             </label><br />
             <label>
                 Email:
@@ -84,7 +85,7 @@ function RegisterPage() {
                     <option value="5">Super Senior</option>
                 </select>
             </label><br />
-            <button>Register</button>
+            <button className="userButtons">Register</button>
         </div>
     )
 }

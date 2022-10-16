@@ -7,11 +7,16 @@ function StartPage() {
     const navigate = useNavigate();
 
     return (
-        <div>
+        <div className="startBody">
             <p>Study Buddy</p>
-            <button onClick={() => navigate("/register")}>Register</button>
-            <button onClick={() => navigate("/login")}>Login</button>
+            <button className="buttonStartPage" 
+                onClick={() => navigate("/register")}>Register</button>
+            <button className="buttonStartPage" 
+                onClick={() => navigate("/login")}>Login</button>
         </div>
+        // <div className = "testBody">
+        //     Study Buddy
+        // </div>
     )
 }
 
